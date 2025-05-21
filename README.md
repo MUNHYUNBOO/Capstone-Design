@@ -7,27 +7,27 @@
 
 ---
 
-## ✅ 1. Jupyter Notebook을 `.py`로 변환
+## Jupyter Notebook을 `.py`로 변환
 
 ```bash
 jupyter nbconvert --to script 파일명.ipynb
 ```
-## ✅ 2. 백그라운드 실행 (nohup)
+## 백그라운드 실행 (nohup)
 
 ```bash
 nohup python test.py > log.txt 2>&1 &
 ```
-## 3. 로그 확인 (실시간 출력 보기)
+## 로그 확인 (실시간 출력 보기)
 ```bash
 tail -f log.txt
 ```
-##  Papermill로 .ipynb 백그라운드 실행 (노트북 기록 포함)
+## Papermill로 .ipynb 백그라운드 실행 (노트북 기록 포함)
 ```bash
 pip install papermill
 nohup papermill test.ipynb output.ipynb > log.txt 2>&1 &
 ```
 
-## 3. 로그 확인 (실시간 출력 보기)
+## 실행 중 프로세스 확인 및 종료
 ```bash
 ps aux | grep papermill  # 실행 중인 test 관련 프로세스 확인
 kill -9 <PID>           # 원하는 프로세스 강제 종료
