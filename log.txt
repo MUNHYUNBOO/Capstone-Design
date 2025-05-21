@@ -1,0 +1,5 @@
+nohup: ignoring input
+Input Notebook:  CNN2.ipynb
+Output Notebook: output2.ipynb
+Executing:   0%|          | 0/8 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:  12%|█▎        | 1/8 [00:04<00:31,  4.49s/cell]Executing:  50%|█████     | 4/8 [00:55<00:58, 14.72s/cell]
