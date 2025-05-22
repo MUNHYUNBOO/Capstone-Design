@@ -1,5 +1,5 @@
 nohup: ignoring input
-Input Notebook:  CNN2.ipynb
-Output Notebook: output2.ipynb
+Input Notebook:  CNN3_normalized.ipynb
+Output Notebook: output_normalized3.ipynb
 Executing:   0%|          | 0/8 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:  12%|█▎        | 1/8 [00:04<00:31,  4.49s/cell]Executing:  50%|█████     | 4/8 [00:55<00:58, 14.72s/cell]
+Executing:  12%|█▎        | 1/8 [00:04<00:30,  4.42s/cell]Executing:  50%|█████     | 4/8 [01:04<01:08, 17.03s/cell]Executing:  75%|███████▌  | 6/8 [49:49<21:33, 646.92s/cell]Executing:  88%|████████▊ | 7/8 [49:59<08:15, 495.77s/cell]Executing: 100%|██████████| 8/8 [50:00<00:00, 370.30s/cell]Executing: 100%|██████████| 8/8 [50:01<00:00, 375.17s/cell]
