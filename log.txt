@@ -1,5 +1,6 @@
 nohup: ignoring input
-Input Notebook:  CNN3_normalized.ipynb
-Output Notebook: output_normalized3.ipynb
-Executing:   0%|          | 0/8 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:  12%|█▎        | 1/8 [00:04<00:30,  4.42s/cell]Executing:  50%|█████     | 4/8 [01:04<01:08, 17.03s/cell]Executing:  75%|███████▌  | 6/8 [49:49<21:33, 646.92s/cell]Executing:  88%|████████▊ | 7/8 [49:59<08:15, 495.77s/cell]Executing: 100%|██████████| 8/8 [50:00<00:00, 370.30s/cell]Executing: 100%|██████████| 8/8 [50:01<00:00, 375.17s/cell]
+Input Notebook:  CNN_2D_STFT3.ipynb
+Output Notebook: output_CNN2D_STFT3.ipynb
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:  11%|█         | 1/9 [00:03<00:27,  3.46s/cell]Executing:  56%|█████▌    | 5/9 [01:32<01:17, 19.41s/cell]Executing:  78%|███████▊  | 7/9 [13:03<04:45, 142.74s/cell]Executing:  89%|████████▉ | 8/9 [13:05<01:52, 112.72s/cell]Executing: 100%|██████████| 9/9 [13:05<00:00, 86.52s/cell] Executing: 100%|██████████| 9/9 [13:06<00:00, 87.41s/cell]
+�████████| 9/9 [13:13<00:00, 95.87s/cell] Executing: 100%|██████████| 9/9 [13:15<00:00, 88.35s/cell]
