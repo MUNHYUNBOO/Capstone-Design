@@ -1,14 +1,10 @@
 nohup: ignoring input
-Input Notebook:  CNN_LSTM_STFT_Log3.ipynb
-Output Notebook: output_CNN_LSTM_STFT_Log3.ipynb
-Executing:   0%|          | 0/10 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:  10%|█         | 1/10 [00:03<00:30,  3.38s/cell]Executing:  30%|███       | 3/10 [00:03<00:06,  1.09cell/s]Executing:  60%|██████    | 6/10 [00:03<00:01,  2.64cell/s]ExecuExecuting:  80%|████████  | 8/10 [09:31<02:59, 89.89s/cell]Kernel died while waiting for execute reply.
-Executing:  90%|██Kernel died while waiting for execute reply.
-Executing:  90%|█████████ | 9/10 [2:14:35<27:29, 1649.97s/cell]Executing:  90%|█████████ | 9/10 [2:14:35<14:57, 897.30s/cell] 
-Traceback (most recent call last):
-  File "/home/mhb0917/.local/lib/python3.10/site-packages/papermill/cli.py", line 235, in papermill
-    execute_notebook(
-  File "/home/mhb0917/.local/lib/python3.10/site-packages/papermill/execute.py", line 116, in execute_notebook
+Input Notebook:  CNN_LSTM_STFT_Log1.ipynb
+Output Notebook: output_CNN_LSTM_STFT_Log1.ipynb
+Executing:   0%|          | 0/11 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   9%|▉         | 1/11 [00:05<00:55,  5.52s/cell]Executing:  55%|█████▍    | 6/11 [00:05<00:03,  1.43cell/s]Executing:  64%|██████▎   | 7/11 [00:20<00:02,  1.43cell/s]Executing:  73%|███████▎  | 8/11 [11:56<05:57, 119.16s/celEExecuting:  82%|████████▏ | 9/11 [16:58:24<6:30:50, 11725.00s/cell]Executing:  91%|█████████ | 10/11 [16:58:25<2:33:15, 9195.47s/cell]Executing:  91%|█████████ | 10/11 [16:58:41<2:33:15, 9195.47s/cell]Executing: 100%|██████████| 11/11 [17:00:45<00:00, 7062.03s/cell]  Executing: 100%|██████████| 11/11 [17:00:48<00:00, 5568.02s/cell]
+
+ll/execute.py", line 116, in execute_notebook
     nb = papermill_engines.execute_notebook_with_engine(
   File "/home/mhb0917/.local/lib/python3.10/site-packages/papermill/engines.py", line 48, in execute_notebook_with_engine
     return self.get_engine(engine_name).execute_notebook(nb, kernel_name, **kwargs)
